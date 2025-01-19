@@ -1,0 +1,140 @@
+body{
+    background-color: pink;
+}
+
+#bar {
+    color: rgb(210, 115, 131);
+}
+
+.box{
+    background-color: azure;
+}
+
+.post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    
+}
+
+.post h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px
+};
+
+.content {
+    display: flex;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+
+};
+
+.sub{
+    display: flex;
+    width: 50px;
+    height: 25px;
+
+}
+
+.newpost{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 200px;
+    width: 700px;
+}
+
+.newpost {
+    margin: 20px auto; 
+    max-width: 800px; 
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .newpost h2 {
+    font-size: 24px; 
+    font-weight: 400; 
+    color: #333; 
+    margin-bottom: 10px;
+    font-style: italic !important;
+  }
+  
+  .newpost p {
+    font-size: 16px; 
+    color: #555; 
+    line-height: 1.5; 
+    margin: 0; 
+  }
+  
+
+  .about{
+    display: flex;
+    justify-content: center;
+    font-style: italic !important;
+    flex-direction: column;
+    margin-top: 100px;
+
+  }
+
+  .about h3{
+    margin-bottom: 30px;
+  }
+
+  .con{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    margin-bottom: 50px;
+  }
+
+  .tact{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .tact {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .tact svg {
+    width: 24px;
+    height: 24px;
+    fill: #555; /* Default color for icons */
+    transition: fill 0.3s ease;
+  }
+  
+  .tact svg:hover {
+    fill: #007bff; /* Highlight color on hover */
+  }
+  
+  .tact a {
+    text-decoration: none;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+    font-family: Arial, sans-serif;
+  }
+  

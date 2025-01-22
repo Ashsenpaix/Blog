@@ -1,1 +1,1 @@
-Install node
+Run Node and npm 
